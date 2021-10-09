@@ -21,7 +21,7 @@ a:link
 }
 body
 {
-    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -56,7 +56,12 @@ li
 .author h6,
 .author p
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h1.author
+{
+    font-weight: 700;
+    margin-top: 20px;
 }
 .category
 {
@@ -76,7 +81,7 @@ li
 }
 div.content
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 300;
 
@@ -84,19 +89,19 @@ div.content
 }
 .copyright
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 200;
 }
 .description
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 200;
     color: #8b8b8b;
 }
 .error
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     margin-top: 100px;
 }
@@ -146,7 +151,7 @@ div.content
 }
 .intro
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', serif;
     font-weight: 200;
     color: #777;
 }
@@ -156,7 +161,7 @@ h3.intro
 }
 .list
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
     margin-top: 50px;
 }
@@ -199,7 +204,7 @@ h3.intro
 }
 .meta
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
@@ -211,7 +216,7 @@ a.meta
 }
 h6.meta
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
@@ -222,7 +227,7 @@ section.meta {
 }
 .powered
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: 300;
 }
@@ -237,7 +242,7 @@ section.meta {
 }
 .title
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Open Sans', serif;
     font-weight: 400;
 
     color: #555;
@@ -256,7 +261,7 @@ header.title
     }
     .list
     {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
 
         margin-top: 30px;
     }
