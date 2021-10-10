@@ -1,4 +1,4 @@
 <header class="text-center header">
-  {{ with .Site.Params.authorimage }} <img src="/img/{{ . }}" alt="Author Image" class="rounded-circle text-center headshot"> {{ end }}
+  <img src="/img/{{ .Site.Params.authorimage }}" alt="{{ .Site.Params.authoralt }}" class="rounded-circle text-center headshot">
   <h1 class="author">{{ .Site.Params.author }}</h1>
 </header>
