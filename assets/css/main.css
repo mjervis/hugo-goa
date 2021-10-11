@@ -19,6 +19,8 @@ a:link
 
     color: #526d7a;
 }
+.content p a {text-decoration: underline;}
+
 body
 {
     font-family: 'Open Sans', sans-serif;
