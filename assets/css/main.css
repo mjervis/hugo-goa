@@ -146,6 +146,9 @@ div.content
     box-shadow: 5px 5px 15px 5px #757575;
     border: 1px solid #ddd;
 }
+.logo {
+    width: 100%;
+}
 .info
 {
     margin-top: 10px;
