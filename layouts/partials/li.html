@@ -26,9 +26,9 @@
         {{ end }}
         </span>
       </p>
-      <p class="excerpt">
-      {{ .Description }}
-      </p>
+      <div class="excerpt">
+      {{ .Description | markdownify }}
+      </div>
     </li>
     {{ end }}
   </ul>
