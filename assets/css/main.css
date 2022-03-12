@@ -17,7 +17,7 @@ a:link
 {
     text-decoration: none;
 
-    color: #526d7a;
+    color: rgb(255,153,79);
 }
 .content p a {text-decoration: underline;}
 
