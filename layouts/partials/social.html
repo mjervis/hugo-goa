@@ -110,6 +110,9 @@
   {{ with .Site.Params.social.pgp }}
   <a href="/{{.}}.txt" aria-label="PGP" name="{{.}}"><i class="fas fa-key" aria-hidden="true"></i></a>
   {{ end }}
+  {{ with .Site.Params.social.Mastodon }}
+  <a rel="me" href="{{.}}" aria-label="Mastondon"><i class="fa-brands fa-mastodon"></i></a>
+  {{ end }}
   {{ if .Site.Params.extra.rss }}
   <a href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" aria-label="RSS" target="_blank" rel="noreferrer"><i class="fas fa-rss" aria-hidden="true"></i></a>
   {{ end }}
@@ -154,6 +157,7 @@
     {{ with .Site.Params.social.soundcloud}}"https://soundcloud.com/{{.}}",{{ end }}
     {{ with .Site.Params.social.tumblr}}"https://{{.}}.tumblr.com",{{ end }}
     {{ with .Site.Params.social.strava}}"https://www.strava.com/athletes/{{.}}",{{ end }}
+    {{ with .Site.Params.social.Mastodon}}"{{.}}",{{ end }}
     "{{ .Site.Params.baseURL }}"
   ]
 }
